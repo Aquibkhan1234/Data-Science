@@ -1,3 +1,8 @@
 google-generativeai
 python-dotenv
 streamlit
+numpy
+pandas
+scikit-learn
+nltk
+requests
