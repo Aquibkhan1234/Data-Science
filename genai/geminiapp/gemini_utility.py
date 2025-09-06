@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
+
 def load_gemini_pro_model():
     gemini_pro_model = genai.GenerativeModel("gemini-pro")
     return gemini_pro_model
